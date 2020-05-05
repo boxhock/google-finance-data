@@ -1,6 +1,6 @@
 {
   "name": "boxhock_google-finance-data",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Google Finance API for real-time stock quotes and company data from Google Finance",
   "main": "index.js",
   "scripts": {
