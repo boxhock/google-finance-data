@@ -1,14 +1,14 @@
-# google-finance-data
+# boxhock_google-finance-data
 Google Finance API for real-time stock quotes and company data from Google Finance
 
 ## Install
 ```
-$ npm install google-finance-data --save
+$ npm install boxhock_google-finance-data --save
 ```
 
 ## Usage
 ```javascript
-var google = require("google-finance-data");
+const google = require("boxhock_google-finance-data");
 
 google.getSymbol("NASDAQ:MSFT")
   .then(data => console.log(JSON.stringify(data, null, 2)))
