@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitquant/google-finance-data.git"
+    "url": "git+https://github.com/boxhock/google-finance-data.git"
   },
   "keywords": [
     "google finance",
@@ -20,10 +20,6 @@
   ],
   "author": "bitquant",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bitquant/google-finance-data/issues"
-  },
-  "homepage": "https://github.com/bitquant/google-finance-data#readme",
   "dependencies": {
     "nested-error-stacks": "2.1.0",
     "puppeteer": "1.17.0"
