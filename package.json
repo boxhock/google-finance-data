@@ -1,6 +1,6 @@
 {
-  "name": "google-finance-data",
-  "version": "0.0.6",
+  "name": "boxhock_google-finance-data",
+  "version": "0.0.7",
   "description": "Google Finance API for real-time stock quotes and company data from Google Finance",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "quote",
     "data"
   ],
-  "author": "bitquant",
+  "author": "Jonas Hals <jonas@smartcontract.com>",
   "license": "MIT",
   "dependencies": {
     "nested-error-stacks": "2.1.0",
