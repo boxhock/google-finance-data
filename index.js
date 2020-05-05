@@ -28,7 +28,7 @@ const getSymbol = async (symbol) => {
         }
 
         const sectionSelector = 'div#knowledge-finance-wholepage__entity-summary g-card-section g-card-section span'
-        await page.waitForSelector(sectionSelector, { timeout: 7000 })
+        await page.waitForSelector(sectionSelector, { timeout: 4000 })
         const sectionElements = await page.$$(sectionSelector)
         const tableRowElements = await page.$$('div#knowledge-finance-wholepage__entity-summary g-card-section table tbody tr')
 
