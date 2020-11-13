@@ -13,7 +13,13 @@ function parseNumber(value) {
 }
 
 const getSymbol = async (symbol) => {
-    const browser = await chromium.puppeteer.launch({args: ["--no-sandbox"]});
+    const browser = await chromium.puppeteer.launch({
+      args: [...chromium.args, "--no-sandbox"],
+      defaultViewport: chromium.defaultViewport,
+      executablePath: await chromium.executablePath,
+      headless: chromium.headless,
+      ignoreHTTPSErrors: true,
+    });
     const page = await browser.newPage();
     await page.setUserAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3205.0 Safari/537.36");
 
