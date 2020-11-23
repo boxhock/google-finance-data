@@ -1,12 +1,15 @@
 # boxhock_google-finance-data
+
 Google Finance API for real-time stock quotes and company data from Google Finance
 
 ## Install
+
 ```
-$ npm install boxhock_google-finance-data --save
+$ yarn add boxhock_google-finance-data
 ```
 
 ## Usage
+
 ```javascript
 const google = require("boxhock_google-finance-data");
 
@@ -34,4 +37,5 @@ google.getSymbol("NASDAQ:MSFT")
 ```
 
 ## License
+
 MIT license; see [LICENSE](./LICENSE).
